@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/path">
+        
+        <fieldset>
+
+            <legend>Formulir Calon Pegawai</legend>
+            <br>
+            <label for="name">Nama: </label>
+            <input type="text" name="name" /><br>
+            <br>
+            <label for="address">Alamat: </label>
+            <input type="text" name="address" /><br>
+            <br>
+            <label for="phoneNumber">Nomor Telpon: </label>
+            <input type="text" name="phoneNumber" /><br>
+            <br>
+
+            <!-- radio button -->
+           <span>Jenis Kelamin :</span>
+           <span><input type="radio" name="jenis_kelamin" value="Laki-Laki">Laki-Laki</span>
+           <span><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</span>
+           <br><br>
+
+           <!-- chekbox button -->
+           <span>Bahasa Pemrograman yang di kuasai : </span>
+           <span><input type="checkbox" name="checkbox1" value="WEB">Web</span>
+           <span><input type="checkbox" name="checkbox2" value="MOBILE">MOBILE</span>
+           <span><input type="checkbox" name="checkbox3" value="DESKTOP">DESKTOP</span>
+           <br><br>
+
+           <span>Kota Asal :</span>
+           <select>
+            <option value="Jakarta">NewYork</option>
+            <option value="Surabaya">London</option>
+            <option value="Bandung">Bali</option>
+          </select>
+          <br>
+          <br>
+          <span>Apa yang Membuat Kami harus memilih Anda ?</span>
+          <br>
+          <textarea rows="4" cols="50" placeholder="Tulis komentar Anda di sini...."></textarea>
+          <br>
+          <br>
+          <button>Proses</button>
+        </fieldset>
+          
+    </form>
+</body>
+</html>
